@@ -1,0 +1,36 @@
+.form-pages {
+  width: 60%;
+  margin-top: 12vh;
+  margin-left: 20%;
+}
+
+/* .form-pages .container div {
+  padding-top: 20px;
+} */
+
+.label-input {
+  padding-bottom: 5px;
+}
+
+.form-pages .container button {
+  margin-top: 20px;
+}
+
+.show-password {
+  position: absolute;
+  right: 5%;
+  margin-top: 33px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .form-pages {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .show-password {
+    right: 9%;
+  }
+}

@@ -1,0 +1,39 @@
+.dashboard {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  min-height: 100vh;
+  max-height: fit-content;
+  margin: 0;
+  background: whitesmoke;
+}
+
+.bg-blue {
+  background-color: rgb(4, 134, 160) !important;
+  color: white;
+}
+
+.btn-green {
+  background-color: rgb(4, 134, 160) !important;
+  border: 2px solid white !important;
+}
+
+.btn-red {
+  background-color: #e40505 !important;
+  border: 2px solid white !important;
+}
+
+.btn-create {
+  position: absolute;
+  margin-top: 10vh;
+  right: 5%;
+  padding: 8px 5px;
+  width: 200px;
+  background-color: rgba(0, 212, 255, 1);
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+.btn-create-register {
+  margin-top: 16vh;
+}

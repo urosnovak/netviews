@@ -1,0 +1,33 @@
+
+.input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+  
+.icon {
+    position: absolute;
+    min-height: 25px;
+    min-width: 40px;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+  
+.input-field {
+    width: 20em;
+    padding: 10px;
+    text-align: center;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid black;
+    border-right: 0px;
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid #FDC02D;
+    box-shadow: 0 0 10px #719ECE;
+  }

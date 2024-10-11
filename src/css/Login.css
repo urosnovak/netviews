@@ -1,0 +1,12 @@
+.login-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.login-actions {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+    align-items: center;
+}

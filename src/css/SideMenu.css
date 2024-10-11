@@ -1,0 +1,13 @@
+.side-menu {
+    float: left;
+    min-width: 9em;
+    height: 100vh;
+    background-color: black;
+    padding: 4em;
+}
+
+.menu-icon {
+    fill: white;
+    min-width: 1.5em;
+    min-height: 1.5em;
+}

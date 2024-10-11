@@ -1,0 +1,65 @@
+.header {
+  position: fixed;
+  top: 0;
+  height: 7vh;
+  width: 100%;
+  background-color: rgb(2, 0, 36) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 20%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header--name {
+  margin-left: 5%;
+}
+
+.header p {
+  margin-top: 1.3vh;
+  font-size: 3vh;
+  font-weight: 600;
+  color: white;
+}
+
+.header-logout {
+  height: 4vh;
+  margin-right: 5%;
+  margin-top: 1.5vh;
+}
+
+.header-logout-btn {
+  height: 100%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0 13px;
+}
+
+.footer {
+  height: 13vh;
+  width: 100%;
+  background-color: rgb(2, 0, 36) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 20%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.footer-name p {
+  padding-top: 1.5vh;
+  margin-bottom: 0;
+  font-size: 4vh;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-copyright {
+  font-weight: 600;
+  color: white;
+}

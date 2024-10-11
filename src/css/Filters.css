@@ -1,0 +1,9 @@
+.filters {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 8vh;
+}
+
+.select {
+  min-width: 200px;
+}

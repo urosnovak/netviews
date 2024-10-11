@@ -1,0 +1,45 @@
+.tabs {
+    float: left;
+    width: 92%;
+}
+
+.tab-header {
+    list-style: none;
+    background: #E5E5E5;
+    line-height: 114px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #999999;
+}
+
+  .tab-header li {
+    display: inline;
+    padding: 7px 12px;
+    line-height: 35px;
+  
+    cursor: pointer;
+  }
+  
+  .tab-header li.active,
+  .tab-header li:hover {
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+  }
+
+  .tab-content {
+    background: #fff;
+    border: 1px solid #dedeed;
+    width: 100%;
+    position: relative;
+  }
+  
+  .tab-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
